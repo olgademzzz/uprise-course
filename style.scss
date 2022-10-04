@@ -1,0 +1,75 @@
+@import url(/reset.css);
+
+.container {
+}
+
+.header {
+  &__container {
+    display: flex;
+  }
+
+  &__logo {
+  }
+
+  &__menu {
+  }
+
+  &__list {
+  }
+
+  &__items {
+  }
+
+  &__register {
+  }
+
+  &__login {
+  }
+
+  &__sign {
+  }
+}
+.hero {
+  &__container {
+  }
+
+  &__text {
+  }
+
+  &__header {
+  }
+
+  &__paragraph {
+  }
+
+  &__button {
+    &_blue {
+    }
+  }
+}
+
+.contact {
+  &__container {
+    display: flex;
+  }
+
+  &__text {
+  }
+
+  &__header {
+  }
+
+  &__paragph {
+  }
+
+  &__form {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  &__imput {
+  }
+
+  &__button {
+  }
+}
