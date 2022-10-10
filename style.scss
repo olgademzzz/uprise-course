@@ -1,75 +1,21 @@
 @import url(/reset.css);
-
-.container {
-}
-
 .header {
-  &__container {
+  .navbar {
+    display: flex !important;
+    justify-content: space-between !important;
+  }
+
+  .logo-wrapper {
     display: flex;
   }
 
-  &__logo {
+  &__button-blue {
+    color: white;
   }
-
-  &__menu {
-  }
-
-  &__list {
-  }
-
-  &__items {
-  }
-
-  &__register {
-  }
-
-  &__login {
-  }
-
-  &__sign {
-  }
-}
-.hero {
-  &__container {
-  }
-
-  &__text {
-  }
-
-  &__header {
-  }
-
-  &__paragraph {
-  }
-
-  &__button {
-    &_blue {
-    }
-  }
-}
-
-.contact {
-  &__container {
-    display: flex;
-  }
-
-  &__text {
-  }
-
-  &__header {
-  }
-
-  &__paragph {
-  }
-
-  &__form {
-    display: flex;
-    flex-wrap: nowrap;
-  }
-
-  &__imput {
-  }
-
-  &__button {
+  &__button-blue a {
+    background-color: #4e66f8;
+    padding: 8px 12px;
+    color: white;
+    border-radius: 7px;
   }
 }

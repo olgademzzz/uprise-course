@@ -1,11 +1,17 @@
 @import url(/reset.css);
-.header__container {
+.header .navbar {
+  display: flex !important;
+  justify-content: space-between !important;
+}
+.header .logo-wrapper {
   display: flex;
 }
-.contact__container {
-  display: flex;
+.header__button-blue {
+  color: white;
 }
-.contact__form {
-  display: flex;
-  flex-wrap: nowrap;
+.header__button-blue a {
+  background-color: #4e66f8;
+  padding: 8px 12px;
+  color: white;
+  border-radius: 7px;
 }/*# sourceMappingURL=style.css.map */
